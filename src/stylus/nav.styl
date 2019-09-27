@@ -1,0 +1,33 @@
+.menu__button
+	background none
+	border none
+	margin-left auto
+	padding 0
+	&:focus
+		outline none
+.menu
+	background-color #f3f1ef
+	position absolute
+	z-index 1000
+	right 0
+	top 80px
+	padding 30px 60px
+	box-shadow 7px 5px 20px 0px rgba(0,0,0,.5)
+	display none
+.menu__item
+	list-style-type none
+.menu__link
+	color #212227
+	font-size 30px
+	&:hover
+	&:focus
+		text-decoration none
+		color #0099ab
+.menu-visible
+	display block
+.menu__button-open:after
+	content '\2715'
+	font-size 40px
+.menu__button-close:after
+	content '\2630'
+	font-size 40px

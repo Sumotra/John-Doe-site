@@ -3,3 +3,6 @@ require("../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js");
 
 import './js/common.js'
 import './css/main.css'
+import './stylus/main.styl'
+import './stylus/header.styl'
+import './stylus/nav.styl'
