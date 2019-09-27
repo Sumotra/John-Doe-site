@@ -8,42 +8,62 @@
     <title>John Doe. Professional skier and a musician</title>
   </head>
   <body class="page">
-  <section class="top">
 
-    <!-- Header -->
-    <header class="header container">
+    <section class="top">
+
+      <!-- Header -->
+      <header class="header container">
+        <div class="row">
+
+          <div class="header__info col-md-6">
+            <div class="logo"></div>
+          </div>
+
+          <!-- Menu -->
+          <div class="header__nav col-md-6">
+            <button class="menu__button menu__button-close float-right" id="menuBtn" value=""></button>
+            <ul class="menu">
+              <li class="menu__item"><a href="#" class="menu__link">One</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Two</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Three</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Four</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Five</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </header>
+
+      <!-- Main title -->
+      <div class="top__info container">
+        <h2 class="top__title">
+          Amazing Dude. <br> Amazing Life.
+        </h2>
+        <h3 class="top__subtitle">
+          Welcome to the personal site of <span class="top__subtitle-bold">John Doe</span>.<br/>
+          A professional skier and a musician.
+        </h3>
+      </div>
+
+    </section>
+
+    <!-- About me -->
+    <section class="about container-fluid">
       <div class="row">
 
-        <div class="header__info col-md-6">
-          <div class="logo"></div>
-        </div>
+        <div class="col-md-6 about__photo"></div>
 
-        <!-- Menu -->
-        <div class="header__nav col-md-6">
-          <button class="menu__button menu__button-close float-right" id="menuBtn" value=""></button>
-          <ul class="menu">
-            <li class="menu__item"><a href="#" class="menu__link">One</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Two</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Three</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Four</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Five</a></li>
-          </ul>
+        <div class="col-md-6 about__info">
+          <h3 class="title">Sed faucibus quis</h3>
+          <p class="text">
+            Fusce bibendum luctus massa, ut tincidunt lectus tincidunt in. Nulla tristique ipsum vitae
+            lacus ullamcorper, at dictum nunc scelerisque.
+          </p>
         </div>
 
       </div>
-    </header>
+    </section>
 
-    <!-- Main title -->
-    <div class="top__info container">
-      <h2 class="top__title">
-        Amazing Dude. <br> Amazing Life.
-      </h2>
-      <h3 class="top__subtitle">
-        Welcome to the personal site of <span class="top__subtitle-bold">John Doe</span>.<br/>
-        A professional skier and a musician.
-      </h3>
-    </div>
 
-  </section>
   </body>  
 </html>
