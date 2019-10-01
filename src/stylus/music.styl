@@ -1,45 +1,49 @@
+$musicTextColor = #f9f9f9
+$musicTitleColor = #2ebd59
 .music__blank
   background-color #282b2f
 .music__img
   background-image url(/assets/img/music-bg.png)
   background-position right center
   background-size cover
-  padding-bottom 30vh
+  padding-bottom 20vw
 .music__info
   background-color #212227
-  padding 8% 5% 8% 5%
+  padding 8% 5%
 .music__title
 .music__subtitle
-  color #2ebd59
+  color $musicTitleColor
+.music__title
+  font-size 1.4em
 .music__subtitle
-  font-size 18px
+  font-size 1em
   font-weight 400
+  margin-top -.6em
   text-transform uppercase
-  margin-top -10px
 .music__text
-  color #f9f9f9
-  font-size 14px
+  color $musicTextColor
+  font-size .9em
   font-weight 400
-  line-height 21px
-  margin-top 30px
+  line-height 1.5em
+  margin-top 2em
 .music__button
-  border-color #2ebd59
-  color #2ebd59
-  font-size 12px
+  border-color $musicTitleColor
+  color $musicTitleColor
+  font-size .8em
   &:hover
-    background-color #2ebd59
+    background-color $musicTitleColor
     color #212227
   &::after
     content ' \25B6'
 .spotify
-  background-color #2ebd59
-  color #f9f9f9
+  background-color $musicTitleColor
+  color $musicTextColor
   padding 8% 4% 8% 12%
 .spotify .button:hover
-  color #2ebd59
+  color $musicTitleColor
 .itunes
   background-color #282b2f
-  color #f9f9f9
+  color $musicTextColor
   padding 8% 12% 8% 4%
 .itunes .button:hover
   color #282b2f

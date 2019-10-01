@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b0ebd61d62.js" crossorigin="anonymous"></script>
     <title>John Doe. Professional skier and a musician</title>
   </head>
@@ -15,13 +16,13 @@
       <header class="header container">
         <div class="row">
 
-          <div class="header__info col-md-6">
+          <div class="header__info col-4">
             <div class="logo"></div>
           </div>
 
           <!-- Menu -->
-          <div class="header__nav col-md-6">
-            <button class="menu__button menu__button-close float-right" id="menuBtn" value=""></button>
+          <div class="header__nav col-8">
+            <button class="menu__button menu__button-close" id="menuBtn" value=""></button>
             <ul class="menu">
               <li class="menu__item"><a href="#" class="menu__link">One</a></li>
               <li class="menu__item"><a href="#" class="menu__link">Two</a></li>
@@ -35,7 +36,7 @@
       </header>
 
       <!-- Main title -->
-      <div class="top__info container">
+      <div class="top__info">
         <h2 class="top__title">
           Amazing Dude. <br> Amazing Life.
         </h2>
@@ -51,9 +52,9 @@
     <section class="about container-fluid">
       <div class="row">
 
-        <div class="about__photo col-md-6"></div>
+        <div class="about__photo col-sm-6"></div>
 
-        <div class="about__info col-md-6">
+        <div class="about__info col-sm-6">
           <h3 class="title">Sed faucibus quis</h3>
           <p class="text">
             Fusce bibendum luctus massa, ut tincidunt lectus tincidunt in. Nulla tristique ipsum vitae
@@ -67,10 +68,10 @@
     <!-- Photo-gallery -->
     <section class="gallery container-fluid">
       <div class="row gallery__row">
-        <div class="gallery__box box-1 col-md-3 col-xs-6"></div>
-        <div class="gallery__box box-2 col-md-3 col-xs-6"></div>
-        <div class="gallery__box box-3 col-md-3 col-xs-6"></div>
-        <div class="gallery__box box-4 col-md-3 col-xs-6"></div>
+        <div class="gallery__box box-1 col-md-3 col-sm-6"></div>
+        <div class="gallery__box box-2 col-md-3 col-sm-6"></div>
+        <div class="gallery__box box-3 col-md-3 col-sm-6"></div>
+        <div class="gallery__box box-4 col-md-3 col-sm-6"></div>
       </div>
     </section>
 
@@ -78,7 +79,7 @@
     <section class="instagram container-fluid">
       <div class="row instagram__row">
 
-        <div class="instagram__info col-md-6">
+        <div class="instagram__info col-md-6 col-sm-8">
           <h3 class="title">Instagram</h3>
           <p class="text text-margin">
             Etiam lacus dolor, tincidunt vitae nisi in, vulputate placerat odio.
@@ -87,7 +88,7 @@
           <a class="instagram__button button" href="#">View on Instagram</a>
         </div>
 
-        <div class="instagram__img col-md-3"></div>
+        <div class="instagram__img col-md-3 col-sm-4"></div>
 
         <div class="instagram__blank col-md-3"></div>
 
@@ -99,12 +100,12 @@
 
       <div class="row">
 
-        <div class="music__blank col-md-3"></div>
+        <div class="music__blank col-md-3 col-sm-2"></div>
 
-        <div class="music__img col-md-9">
+        <div class="music__img col-md-9 col-sm-10 col-xs d-xs-none">
           <div class="row">
 
-            <div class="music__info col-md-4">
+            <div class="music__info col-md-4 col-sm-6 col-xs-12">
               <h3 class="music__title title">Self-Effacing Rage</h3>
               <h3 class="music__subtitle">FT. Fascinating Collision</h3>
               <p class="music__text text-margin">
@@ -124,14 +125,14 @@
       <div class="row">
 
         <!-- Spotify-link -->
-        <div class="spotify col-md-6">
+        <div class="spotify col-sm-6">
           <h3 class="title">Spotify</h3>
           <p class="text text-margin">Follow me, stream and add my songs to your Spotify playlist.</p>
           <a class="button" href="#">Follow on Spotify</a>
         </div>
 
         <!-- ITunes-link -->
-        <div class="itunes col-md-6">
+        <div class="itunes col-sm-6">
           <h3 class="title">ITunes</h3>
           <p class="text text-margin">Buy and download my songs from iTunes.</p>
           <a class="button" href="#">Buy from itunes</a>
@@ -181,8 +182,8 @@
         </p>
 
         <form class="subscribe__form">
-          <input type="email" class="subscribe__input" placeholder="Enter your email adress">
-          <button type="submit" class="subscribe__button"><i class="fas fa-arrow-right"></i></button>
+          <input class="subscribe__input" type="email" placeholder="Enter your email adress">
+          <button class="subscribe__button" type="submit"><i class="fas fa-arrow-right"></i></button>
         </form>
 
       </div>
@@ -230,5 +231,5 @@
 
     </footer>
 
-  </body>  
+  </body>
 </html>
