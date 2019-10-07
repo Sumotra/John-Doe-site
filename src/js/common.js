@@ -1,23 +1,27 @@
 // Menu button
-let btn = document.getElementById('menuBtn');
-let menu = document.querySelector('.menu');
+(function() {
 
-function toggleMenu() {
-	menu.classList.toggle('menu-visible');
-	btn.classList.toggle('menu__button-open');
-	btn.classList.toggle('menu__button-close');
-}
+	let btn = document.getElementById('menuBtn');
+	let menu = document.querySelector('.menu');
 
-btn.addEventListener('click', toggleMenu);
+	function toggleMenu() {
+		menu.classList.toggle('menu-visible');
+		btn.classList.toggle('menu__button-open');
+		btn.classList.toggle('menu__button-close');
+	}
+
+	btn.addEventListener('click', toggleMenu);
+
+})();
 
 // To-top button
 (function() {
 
-  var toTopBtn = document.querySelector('.back-to-top');
+  let toTopBtn = document.querySelector('.back-to-top');
 
   function trackScroll() {
-    var scrolled = window.pageYOffset;
-    var pageHeight = document.documentElement.clientHeight;
+    let scrolled = window.pageYOffset;
+    let pageHeight = document.documentElement.clientHeight;
 
     if (scrolled > pageHeight) {
       toTopBtn.classList.add('back-to-top-show');
